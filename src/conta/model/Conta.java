@@ -1,7 +1,7 @@
 package conta.model;
 
 public abstract class Conta {	
-	
+	private static int proximoNumeroConta = 1001;
 	private int numero;
 	private int agencia;;
 	private int tipo;
